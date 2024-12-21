@@ -48,7 +48,7 @@ function appendToFile(folder, fileName, newData) {
 
   // Write updated data back to the file
   fs.writeFileSync(filePath, JSON.stringify(existingData, null, 2), 'utf8');
-  console.log(`Appended data to ${filePath}`);
+ // console.log(`Appended data to ${filePath}`);
 }
 
 // Fetch data from a specific API endpoint with retry on 429 (rate limit)
@@ -88,12 +88,12 @@ async function fetchAnimalData(animal, url) {
 // Fetch data from all endpoints and append them
 async function fetchAndSaveAllAnimals() {
   while (true) { // Infinite loop
-    console.log("Starting a new fetch cycle...");
+  //  console.log("Starting a new fetch cycle...");
     for (const [animal, url] of Object.entries(apiEndpoints)) {
-      console.log(`Fetching data for ${animal}...`);
+  //    console.log(`Fetching data for ${animal}...`);
       await fetchAnimalData(animal, url);
     }
-    console.log("Fetch cycle complete. Restarting in 1 second...");
+ //   console.log("Fetch cycle complete. Restarting in 1 second...");
     await new Promise(resolve => setTimeout(resolve, 1000)); // 1 second delay between cycles
   }
 }
