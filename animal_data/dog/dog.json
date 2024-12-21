@@ -1,4 +1,338 @@
-{
-  "image": "https://cdn.some-random-api.com/hai4hTm6",
-  "fact": "Dogs' sense of hearing can reach four times the distance of humans."
-}
+[
+  {
+    "image": "https://cdn.some-random-api.com/2n62Hiq3",
+    "fact": "The idea that a dog's saliva has healing powers has been around at least since the ancient Greeks and Romans, whose physicians believed it to be an antidote for poisoning."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/tSyQC_jT",
+    "fact": "Dogs are mentioned 14 times in the Bible."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/tSyQC_jT",
+    "fact": "Putting collars on dogs is an ancient practice, but dog licenses are much more recent."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/8UBrLksL",
+    "fact": "Corgi is Welsh for \"dwarf dog.\""
+  },
+  {
+    "image": "https://cdn.some-random-api.com/BRDc5OEy",
+    "fact": "Dogs who live in cities tend to live, on average, 3 years longer than dogs from the country."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/TdL9TUWz",
+    "fact": "Dogs don't feel guilt."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/8FDieFNs",
+    "fact": "Dogs have about 1,700 taste buds. (We humans have between 2,000–10,000.)"
+  },
+  {
+    "image": "https://cdn.some-random-api.com/NuNpJU8i",
+    "fact": "Dogs chase their tails for a variety of reasons: curiosity, exercise, anxiety, predatory instinct or, they might have fleas!"
+  },
+  {
+    "image": "https://cdn.some-random-api.com/gY3W4nLp",
+    "fact": "62% of U.S. households own a pet, which equates to 72.9 million homes."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/eXvjon4F",
+    "fact": "Puppies then take a year or more to gain the other half of their body weight."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/DHCv-1Cu",
+    "fact": "A person who hunts with a Beagle is known as a \"Beagler.\""
+  },
+  {
+    "image": "https://cdn.some-random-api.com/P95PukAk",
+    "fact": "The Labrador Retriever is originally from Newfoundland."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/7N3R-8-C",
+    "fact": "Three dogs (from First Class cabins!) survived the sinking of the Titanic – two Pomeranians and one Pekingese."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/MHySSgn9",
+    "fact": "Dogs curl up in a ball when sleeping to protect their organs—a hold over from their days in the wild, when they were vulnerable to predator attacks."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/T04KBsTi",
+    "fact": "Dogs have three eyelids, an upper lid, a lower lid and the third lid, called a nictitating membrane or \"haw,\" which helps keep the eye moist and protected."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/j7Embe9n",
+    "fact": "Rin Tin Tin, the famous German Shepherd, was nominated for an Academy Award."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/hbcsmifN",
+    "fact": "Basset Hounds have the longest ears out of any other dog breed. Many measure between 7 and 10 inches long."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/HMjqFefw",
+    "fact": "Dalmatians are born completely white, and develop their spots as they get older."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/2jDiPcdr",
+    "fact": "The Basenji is not technically \"barkless,\" as many people think. They can yodel."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/-zGzirIQ",
+    "fact": "Dogs are as smart as a two-year-old baby."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/NuNpJU8i",
+    "fact": "Your one year-old pup is as physically mature as a 15-year-old human."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/jXneX-3j",
+    "fact": "Puppies love games such as hide and seek! Hide, then call your pup's name so she can try to find you."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/xPbE-8-N",
+    "fact": "A dogs' first sense to develop is touch."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/RWk0WqzP",
+    "fact": "The Dandie Dinmont Terrier is the only breed named for a fictional person—a character in the novel Guy Mannering, by Sir Walter Scott."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/xPbE-8-N",
+    "fact": "On average, a dog's mouth exerts 320 pounds of pressure."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/_N-Zw__1",
+    "fact": "Two stray dogs in 1860's San Francisco were sanctioned to roam free by the local constabulary. Bummer and Lazarus were local icons, heralded in cartoons and newspaper articles for their daring adventures as rat-catchers and petty thieves."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/7N3R-8-C",
+    "fact": "Dog urine can corrode metal."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/_N-Zw__1",
+    "fact": "The shape of a dog's face suggests its longevity: A long face means a longer life."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/OzZ7cUSC",
+    "fact": "A dog is as smart as a two-year old"
+  },
+  {
+    "image": "https://cdn.some-random-api.com/_3mRAZo4",
+    "fact": "Spaying or neutering your dog can help prevent certain types of cancer."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/IauymhzU",
+    "fact": "In the Harry Potter series, Hagrid's dog, Fang, was a Neapolitan Mastiff- a breed that almost became extinct after WWII."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/LyvnJkj_",
+    "fact": "A dog is as smart as a two-year old"
+  },
+  {
+    "image": "https://cdn.some-random-api.com/OItZMEIt",
+    "fact": "Puppies grow to half their body weight in the first four to five months."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/J0pTkxtN",
+    "fact": "Human blood pressure goes down when petting a dog. And so does the dog's."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/sUa241ak",
+    "fact": "In 1969, Lassie the famous Collie dog was the very first animal inducted into the Animal Hall of Fame."
+  },
+  {
+    "image": "https://i.imgur.com/0CgFcQv.jpg",
+    "fact": "George Washington had a favorite fox hound named Sweetlips and a dalmatian coach dog named Madame Moose."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/C36av2pI",
+    "fact": "Dogs could participate in doggie blood drives: dogs are able to donate blood to fellow pooches."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/KpsL4A9j",
+    "fact": "33 percent of dog owners admit to talking to their dog over the telephone, often leaving them messages on the answering machine."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/JaefKqRq",
+    "fact": "72% of dog owners believe their dog can detect when stormy weather is on the way."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/OXOIiVos",
+    "fact": "A person who hunts with a Beagle is known as a \"Beagler.\""
+  },
+  {
+    "image": "https://cdn.some-random-api.com/hai4hTm6",
+    "fact": "Your dog's whiskers help him \"see\" in the dark."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/7N3R-8-C",
+    "fact": "A dog's nose print is unique, much like a person's fingerprint."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/Z9KPnQ-z",
+    "fact": "Did you know tripping over your dog is the second most likely way to get injured around hounds? Bites are the most common."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/t4oOE7Qx",
+    "fact": "It's not abnormal for dogs to eat feces."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/-zGzirIQ",
+    "fact": "Dog eyes have a part called the tapetum lucidum, allowing night vision."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/xPbE-8-N",
+    "fact": "Basset Hounds have the longest ears out of any other dog breed. Many measure between 7 and 10 inches long."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/B-sscBpS",
+    "fact": "\"A dog has the soul of a philosopher.\" – Plato"
+  },
+  {
+    "image": "https://cdn.some-random-api.com/6WE_2Chg",
+    "fact": "George Washington had a favorite fox hound named Sweetlips and a dalmatian coach dog named Madame Moose."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/8FDieFNs",
+    "fact": "In the Harry Potter series, Hagrid's dog, Fang, was a Neapolitan Mastiff- a breed that almost became extinct after WWII."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/NuNpJU8i",
+    "fact": "33 percent of dog owners admit to talking to their dog over the telephone, often leaving them messages on the answering machine."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/fqI7K4nY",
+    "fact": "Dogs have three eyelids, an upper lid, a lower lid and the third lid, called a nictitating membrane or \"haw,\" which helps keep the eye moist and protected."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/lgCPbngs",
+    "fact": "Call them the biters! Female dogs bite double the amount of males."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/tTLuYlYm",
+    "fact": "In 1969, Lassie the famous Collie dog was the very first animal inducted into the Animal Hall of Fame."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/Yo9uqgdC",
+    "fact": "In order to socialize them early, it helps for Ambassador wolves to have puppy playmates."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/F0wA7PBp",
+    "fact": "Male dogs lift a leg to pee to make themselves appear larger to other dogs. "
+  },
+  {
+    "image": "https://cdn.some-random-api.com/lgCPbngs",
+    "fact": "The Dandie Dinmont Terrier is the only breed named for a fictional person—a character in the novel Guy Mannering, by Sir Walter Scott."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/RWk0WqzP",
+    "fact": "Dalmatians are born completely white, and develop their spots as they get older."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/P95PukAk",
+    "fact": "There are over 75 million pet dogs in the U.S.—more than in any other country."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/IauymhzU",
+    "fact": "Dogs have two times the amount of muscles in their ears than humans."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/9kzX2OjX",
+    "fact": "Out of the 12 that were on board, three dogs survived the Titanic: two small Pomeranians and a Pekinese."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/_3mRAZo4",
+    "fact": "Dogs who live in cities tend to live, on average, 3 years longer than dogs from the country."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/fqI7K4nY",
+    "fact": "It's rumored that, at the end of the Beatles song, \"A Day in the Life,\" Paul McCartney recorded an ultrasonic whistle, audible only to dogs, just for his Shetland sheepdog."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/OXOIiVos",
+    "fact": "Two stray dogs in 1860's San Francisco were sanctioned to roam free by the local constabulary. Bummer and Lazarus were local icons, heralded in cartoons and newspaper articles for their daring adventures as rat-catchers and petty thieves."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/7N3R-8-C",
+    "fact": "Putting collars on dogs is an ancient practice, but dog licenses are much more recent."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/j7Embe9n",
+    "fact": "It's no coincidence that an Affenpinscher looks monkey-like; its name means \"monkey terrier\" in German."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/tTLuYlYm",
+    "fact": "Dogs are not colorblind. They also see blue and yellow."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/LOM2CD59",
+    "fact": "Dogs only have sweat glands in their paws."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/xPbE-8-N",
+    "fact": "The name Collie means \"black.\" (Collies once tended black-faced sheep.)"
+  },
+  {
+    "image": "https://cdn.some-random-api.com/fqI7K4nY",
+    "fact": "Two stray dogs in 1860's San Francisco were sanctioned to roam free by the local constabulary. Bummer and Lazarus were local icons, heralded in cartoons and newspaper articles for their daring adventures as rat-catchers and petty thieves."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/xhIl4ZrW",
+    "fact": "Dogs' sense of hearing can reach four times the distance of humans."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/9kzX2OjX",
+    "fact": "When dogs kick backward after they go to the bathroom it's not to cover it up, but to mark their territory, using the scent glands in their feet."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/HMjqFefw",
+    "fact": "Tired puppies get cranky just like little kids. If you have a fussy puppy, try nap time."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/bO97v7MP",
+    "fact": "Max, the world's oldest dog, passed away at the ripe old age of 29 years and 282 days old in 2013. He was a beagle and terrier mix."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/C36av2pI",
+    "fact": "In order to socialize them early, it helps for Ambassador wolves to have puppy playmates."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/KGx51Nge",
+    "fact": "Dogs can be beneficial additions to the lives of children with Autism. Trained dogs can lessen the child's tendency of aggressiveness and give them a sense of independence."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/Ee8M5fjA",
+    "fact": "The seeds of apples and pears should be kept away from dogs. Their composition includes arsenic, which could kill your dog."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/POFf_RVD",
+    "fact": "Dogs are not colorblind. They also see blue and yellow."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/sUa241ak",
+    "fact": "Your one year-old pup is as physically mature as a 15-year-old human."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/r16qMXwN",
+    "fact": "Dogs could participate in doggie blood drives: dogs are able to donate blood to fellow pooches."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/LB_kJqPc",
+    "fact": "Your dog's sense of smell is 1,000 to 10 million times better than yours."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/Yt6lJ9kC",
+    "fact": "All dogs dream, but puppies and senior dogs dream more frequently than adult dogs."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/8UBrLksL",
+    "fact": "72% of dog owners believe their dog can detect when stormy weather is on the way."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/nQGC8O2p",
+    "fact": "Two stray dogs in 1860's San Francisco were sanctioned to roam free by the local constabulary. Bummer and Lazarus were local icons, heralded in cartoons and newspaper articles for their daring adventures as rat-catchers and petty thieves."
+  },
+  {
+    "image": "https://cdn.some-random-api.com/hbcsmifN",
+    "fact": "The phrase \"It's Raining Cats and Dogs\" was born in Germany in the 17th century. When storms flooded the streets, dogs and cats were often pulled into the currents."
+  }
+]

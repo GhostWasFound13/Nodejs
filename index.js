@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-// List of API endpoints for some-random-api
+// API endpoints for some-random-api
 const apiEndpoints = {
   dog: "https://some-random-api.com/animal/dog",
   cat: "https://some-random-api.com/animal/cat",
@@ -22,7 +22,7 @@ function ensureDirectoryExists(directory) {
   }
 }
 
-// Read existing JSON file or return an empty array
+// Read existing JSON data or return an empty array
 function readExistingData(filePath) {
   if (fs.existsSync(filePath)) {
     const data = fs.readFileSync(filePath, 'utf8');
@@ -31,12 +31,17 @@ function readExistingData(filePath) {
   return [];
 }
 
-// Save data to a JSON file (append mode)
+// Append new data to a JSON file
 function appendToFile(folder, fileName, newData) {
   const filePath = path.join(folder, fileName);
 
   // Read existing data
-  const existingData = readExistingData(filePath);
+  let existingData = readExistingData(filePath);
+
+  // Ensure existingData is an array (in case of unexpected data format)
+  if (!Array.isArray(existingData)) {
+    existingData = [];
+  }
 
   // Append new data
   existingData.push(newData);
@@ -46,30 +51,50 @@ function appendToFile(folder, fileName, newData) {
   console.log(`Appended data to ${filePath}`);
 }
 
+// Fetch data from a specific API endpoint with retry on 429 (rate limit)
+async function fetchAnimalData(animal, url) {
+  try {
+    const response = await axios.get(url);
+    const animalData = response.data;
+
+    // Create a folder for the animal
+    const folderPath = path.join(__dirname, 'animal_data', animal);
+    ensureDirectoryExists(folderPath);
+
+    // Append data to the JSON file in the folder
+    appendToFile(folderPath, `${animal}.json`, animalData);
+  } catch (error) {
+    if (error.response) {
+      // Handle specific HTTP errors
+      if (error.response.status === 404) {
+        console.error(`Error 404: Data for ${animal} not found.`);
+      } else if (error.response.status === 402) {
+        console.error(`Error 402: Payment required for ${animal}.`);
+      } else if (error.response.status === 429) {
+        const retryAfter = error.response.headers['retry-after'] || 1; // Default to 1 second if not provided
+        console.error(`Error 429: Rate limit exceeded. Retrying after ${retryAfter} seconds...`);
+        await new Promise(resolve => setTimeout(resolve, retryAfter * 1000)); // Wait before retrying
+        await fetchAnimalData(animal, url); // Retry fetching the data
+      } else {
+        console.error(`HTTP Error ${error.response.status}: Unable to fetch ${animal} data.`);
+      }
+    } else {
+      // General errors (network issues, timeouts, etc.)
+      console.error(`Error fetching ${animal}:`, error.message);
+    }
+  }
+}
+
 // Fetch data from all endpoints and append them
 async function fetchAndSaveAllAnimals() {
   while (true) { // Infinite loop
     console.log("Starting a new fetch cycle...");
-    try {
-      for (const [animal, url] of Object.entries(apiEndpoints)) {
-        console.log(`Fetching data for ${animal}...`);
-        const response = await axios.get(url);
-        const animalData = response.data;
-
-        // Create a folder for the animal
-        const folderPath = path.join(__dirname, 'animal_data', animal);
-        ensureDirectoryExists(folderPath);
-
-        // Append data to the JSON file in the folder
-        appendToFile(folderPath, `${animal}.json`, animalData);
-      }
-      console.log("Fetch cycle complete. Restarting...");
-    } catch (error) {
-      console.error("Error during fetch:", error.message);
+    for (const [animal, url] of Object.entries(apiEndpoints)) {
+      console.log(`Fetching data for ${animal}...`);
+      await fetchAnimalData(animal, url);
     }
-
-    // Wait before starting the next cycle (optional)
-    await new Promise(resolve => setTimeout(resolve, 5000)); // 5 seconds delay
+    console.log("Fetch cycle complete. Restarting in 1 second...");
+    await new Promise(resolve => setTimeout(resolve, 1000)); // 1 second delay between cycles
   }
 }
 
